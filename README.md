@@ -10,6 +10,10 @@ trends of the training data set using a fourier fit.
 Look below to see the local phenomena generated at a time-step by time-step level as well as the 
 long-term features generated such as distribution, wind rose, and monthly/dirunal profiles.
 
+The example can generate any number of time series to mimic the original ERA-5 time series provided, and
+the approach is generalized so that it can match any wind speed/direction training set that you feed to
+the model.
+
 Original             |  Generated
 :-------------------------:|:-------------------------:
 ![](images/time_series_original.PNG)  |  ![](images/time_series_modeled.PNG)
